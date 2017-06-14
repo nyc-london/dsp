@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Emacs will be my preferred choice of terminal editor.  I made this decision because I like the interface and want the same editor for non-graphical and graphical environments.    
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I plan to use Emacs as my graphical editor since I want the same editor for non-graphical and graphical environments.  An interesting feature of Emacs is that it can be used without a mouse.  Some useful keyboard shortcuts include CTRL-X-S to save a file and CTRL-X-C to get out of Emacs.  Emacs variables and faces can be customized by typing 'M-x customize'.  
 
  
