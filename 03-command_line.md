@@ -21,6 +21,17 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
 
+* show current working directory path = ls
+* creating a directory = cd
+* deleting a directory = rm -r mydir (Note: replace "mydir" with the name of the directory you want to delete)
+* creating a file using `touch` command = touch filename
+* deleting a file = rm filename
+* renaming a file = mv (option) filename1 filename2
+* listing hidden files = ls -a
+* copying a file from one directory to another = cp filename directoryname
+* head filename = output the first 10 lines of file
+* tail filename = output the last 10 lines of file
+
 ---
 
 ### Q2.  List Files in Unix   
