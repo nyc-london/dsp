@@ -52,6 +52,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
 
+ls -c = lists files by timestamps
+ls -m = displays the names as a comma-separated list
+ls -r = displays files in reverse order
+ls -R = displays subdirectories as well
+ls -u = displays files by the file access time
+
 ---
 
 ### Q4.  Xargs   
