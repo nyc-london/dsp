@@ -27,14 +27,22 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What do the following commands do:  
 `ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
+`ls -a` 
+`ls -l` 
+`ls -lh` 
+`ls -lah` 
+`ls -t` 
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+
+`ls` = list directory contents 
+`ls -a` = lists all files including hidden files 
+`ls -l` = uses a long listing format
+`ls -lh` = long listing format with file size in human readable form
+`ls -lah` = long listing format with file size in human readable form (including hidden files)
+`ls -t` = sort by modification time, newest first
+`ls -Glp` =  uses a long listing format (with no group names)
 
 ---
 
@@ -50,7 +58,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs means "combine arguments."  xargs builds and executes command lines by gathering together arguments it reads on the standard input.
+
+xargs grep typedef < file-list
+(1) This command searches for the files listed in the file 'file-list'; and
+(2) prints all of the lines in them that contain the word 'typedef'
 
  
 
