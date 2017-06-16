@@ -14,9 +14,10 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
 
-(1) Lists are dynamic and mutable.
-(2) Tuples are fixed size in nature and mutable.  
-(3) Tuples.  A dictionary key must be immutable.
+>> (1) Similarities:  Lists and tuples are both sequence types.
+>> (2) Lists are dynamic and mutable. Tuples are fixed size in nature and mutable.  
+>> (3) Tuples.  A dictionary key must be immutable.
+
 
 ### Q2. Lists &amp; Sets
 
