@@ -15,7 +15,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
 
 >> (1) Similarities:  Lists and tuples are both sequence types.
->> (2) Lists are dynamic and mutable. Tuples are fixed size in nature and mutable.  
+>> (2) Differences:  Lists are dynamic and mutable. Tuples are fixed size in nature and mutable.  
 >> (3) Tuples.  A dictionary key must be immutable.
 
 
@@ -25,7 +25,24 @@ How are Python lists and sets similar and different? Give examples of using both
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
 
----
+>> (1) Similarities:  Lists and sets are both collections of elements.  
+>> (2) Differences:  
+(i) Sets cannot contain duplicates, are unordered and can only contain hashable items.
+(ii) Sets = unordered collections of unique elements
+(iii) Lists = ordered collections of elements
+(iv) Sets allow you to do operations such as intersection, union, difference and symmetric difference
+(v) Sets do not allow indexing and are implemented on hash tables
+(vi) Lists are variable-length arrays.  List elements are accessed by indices.  
+>> (3) Examples:  
+list1 = [1, 2, 3, 4, 5 ];
+list2 = ["a", "b", "c", "d", "e"]
+set1 = {1, 2, 3, 4, 5}
+set2 = {1.0, "Hello", (1, 2, 3)}
+
+>> (4) Performance for Finding Element:
+(i) Sets are faster for finding if an object is present in a set.  This is because sets use a bash function to map to a bucket. Since Python implementations resize the hash table, the speed can be constant regardless of the size of the set.  Lists, in comparison, require Python to compare every single member for equality.  
+(ii) Sets are slower than lists when iterating over contents.      
+
 
 ### Q3. Lambda Function
 
