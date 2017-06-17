@@ -111,13 +111,21 @@ It returns a new list with the elements changed by func.
 >> map() can be applied to more than one list. The lists have to have the same length. map() will apply its lambda function to the elements of the argument lists, i.e. it first applies to the elements with the 0th index, then to the elements with the 1st index until the n-th index is reached:
 
 >>> a = [1,2,3,4]
+
 >>> b = [17,12,11,10]
+
 >>> c = [-1,-4,5,9]
+
 >>> map(lambda x,y:x+y, a,b)
+
 [18, 14, 14, 14]
+
 >>> map(lambda x,y,z:x+y+z, a,b,c)
+
 [17, 10, 19, 23]
+
 >>> map(lambda x,y,z:x+y-z, a,b,c)
+
 [19, 18, 9, 5]
 
 # 3.  Filter Function
@@ -126,11 +134,17 @@ The function filter(function, list) offers an elegant way to filter out all the 
 The function filter(f,l) needs a function f as its first argument. f returns a Boolean value, i.e. either True or False. This function will be applied to every element of the list l. Only if f returns True will the element of the list be included in the result list.
 
 >>> fib = [0,1,1,2,3,5,8,13,21,34,55]
+
 >>> result = filter(lambda x: x % 2, fib)
+
 >>> print result
+
 [1, 1, 3, 5, 13, 21, 55]
+
 >>> result = filter(lambda x: x % 2 == 0, fib)
+
 >>> print result
+
 [0, 2, 8, 34]
 
 
@@ -139,13 +153,21 @@ The function filter(f,l) needs a function f as its first argument. f returns a B
 A set comprehension is similar to a list comprehension, but returns a set and not a list. Syntactically, curly brackets are used instead of square brackets to create a set.
 
 >>> from math import sqrt
+
 >>> n = 100
+
 >>> sqrt_n = int(sqrt(n))
+
 >>> no_primes = {j for i in range(2,sqrt_n) for j in range(i*2, n, i)}
+
 >>> no_primes
+
 {4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25, 26, 27, 28, 30, 32, 33, 34, 35, 36, 38, 39, 40, 42, 44, 45, 46, 48, 49, 50, 51, 52, 54, 55, 56, 57, 58, 60, 62, 63, 64, 65, 66, 68, 69, 70, 72, 74, 75, 76, 77, 78, 80, 81, 82, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 98, 99}
+
 >>> primes = {i for i in range(n) if i not in no_primes}
+
 >>> print(primes)
+
 {0, 1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97}
 
 # 5.  Dictionary Comprehension
@@ -154,8 +176,9 @@ You can use dict comprehensions in ways very similar to list comprehensions, exc
 
 >> In addition, dict comprehensions can be used to create dictionaries from arbitrary key and value expressions:
 
->>> {x: x**2 for x in (2, 4, 6)}
-{2: 4, 4: 16, 6: 36}
+{x: x**2 for x in (2, 4, 6)}
+
+Output = {2: 4, 4: 16, 6: 36}
 
 
 ### Complete the following problems by editing the files below:
