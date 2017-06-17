@@ -99,6 +99,8 @@ map() applies the function func to all the elements of the sequence seq.
 
 It returns a new list with the elements changed by func.
 
+>>  nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 >>  my_list = map(lambda n: n*n, nums)
 
 >>  print (my_list)
