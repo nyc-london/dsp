@@ -143,6 +143,7 @@ It returns a new list with the elements changed by func.
 
 [1, 1, 3, 5, 13, 21, 55]
 
+
 >>> result = filter(lambda x: x % 2 == 0, fib)
 
 >>> print result
