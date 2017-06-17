@@ -67,6 +67,7 @@ g = lambda x: x^2
 >> Note: lambdas are limited to one expression only, the result of which is the return value.
 
 >> sorted(['Some', 'words', 'sort', 'differently'], key=lambda word: word.lower())
+
 '#' ['differently', 'Some', 'sort', 'words']
 
 ---
