@@ -175,13 +175,13 @@ A set comprehension is similar to a list comprehension, but returns a set and no
 
 # 5.  Dictionary Comprehension
 
-You can use dict comprehensions in ways very similar to list comprehensions, except that they produce Python dictionary objects instead of list objects.
+* You can use dict comprehensions in ways very similar to list comprehensions, except that they produce Python dictionary objects instead of list objects.
 
->> In addition, dict comprehensions can be used to create dictionaries from arbitrary key and value expressions:
+* In addition, dict comprehensions can be used to create dictionaries from arbitrary key and value expressions:
 
-{x: x**2 for x in (2, 4, 6)}
+* {x: x**2 for x in (2, 4, 6)}
 
-Output = {2: 4, 4: 16, 6: 36}
+* Output = {2: 4, 4: 16, 6: 36}
 
 
 ### Complete the following problems by editing the files below:
