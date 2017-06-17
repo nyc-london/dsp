@@ -91,19 +91,19 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> It returns a new list with the elements changed by func.
 
->> def fahrenheit(T):
+>>    def fahrenheit(T):
 
 >>    return ((float(9)/5)*T + 32)
 
->> def celsius(T):
+>>    def celsius(T):
 
->>     return (float(5)/9)*(T-32)
+>>    return (float(5)/9)*(T-32)
 
->> temp = (36.5, 37, 37.5,39)
+>>    temp = (36.5, 37, 37.5,39)
 
->> F = map(fahrenheit, temp)
+>>    F = map(fahrenheit, temp)
 
->> C = map(celsius, F)
+>>    C = map(celsius, F)
 
 >> map() can be applied to more than one list. The lists have to have the same length. map() will apply its lambda function to the elements of the argument lists, i.e. it first applies to the elements with the 0th index, then to the elements with the 1st index until the n-th index is reached:
 
