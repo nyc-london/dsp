@@ -85,15 +85,24 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> r = map(func, seq)
 
->> The first argument func is the name of a function and the second a sequence (e.g. a list) seq. map() applies the function func to all the elements of the sequence seq. It returns a new list with the elements changed by func
+>> The first argument func is the name of a function and the second a sequence (e.g. a list) seq. 
+
+>> map() applies the function func to all the elements of the sequence seq. 
+
+>> It returns a new list with the elements changed by func.
 
 >> def fahrenheit(T):
+
 >>    return ((float(9)/5)*T + 32)
+
 >> def celsius(T):
+
 >>     return (float(5)/9)*(T-32)
+
 >> temp = (36.5, 37, 37.5,39)
 
 >> F = map(fahrenheit, temp)
+
 >> C = map(celsius, F)
 
 >> map() can be applied to more than one list. The lists have to have the same length. map() will apply its lambda function to the elements of the argument lists, i.e. it first applies to the elements with the 0th index, then to the elements with the 1st index until the n-th index is reached:
