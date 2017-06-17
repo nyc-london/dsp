@@ -99,19 +99,11 @@ map() applies the function func to all the elements of the sequence seq.
 
 It returns a new list with the elements changed by func.
 
->>    def fahrenheit(T):
+>>  my_list = map(lambda n: n*n, nums)
 
->>>>    return ((float(9)/5)*T + 32)
+>>  print (my_list)
 
->>    def celsius(T):
-
->>>>    return (float(5)/9)*(T-32)
-
->>    temp = (36.5, 37, 37.5,39)
-
->>    F = map(fahrenheit, temp)
-
->>    C = map(celsius, F)
+>>  Output = [1, 3, 9, 16, 25, 36, 49, 64, 81, 100]
 
  * map() can be applied to more than one list. The lists have to have the same length. map() will apply its lambda function to the elements of the argument lists, i.e. it first applies to the elements with the 0th index, then to the elements with the 1st index until the n-th index is reached:
 
@@ -121,15 +113,15 @@ It returns a new list with the elements changed by func.
 
 >>> c = [-1,-4,5,9]
 
->>> map(lambda x,y:x+y, a,b)
+>>> map(lambda x,y: x+y, a,b)
 
 [18, 14, 14, 14]
 
->>> map(lambda x,y,z:x+y+z, a,b,c)
+>>> map(lambda x,y,z: x+y+z, a,b,c)
 
 [17, 10, 19, 23]
 
->>> map(lambda x,y,z:x+y-z, a,b,c)
+>>> map(lambda x,y,z: x+y-z, a,b,c)
 
 [19, 18, 9, 5]
 
