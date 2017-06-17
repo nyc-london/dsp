@@ -68,7 +68,7 @@ g = lambda x: x^2
 
 >> sorted(['Some', 'words', 'sort', 'differently'], key=lambda word: word.lower())
 
-'#' ['differently', 'Some', 'sort', 'words']
+>> '#' ['differently', 'Some', 'sort', 'words']
 
 ---
 
