@@ -82,6 +82,11 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 List comprehensions are a tool for transforming one list into another list.  During this transformation, elements can be conditionally included in the new list and each element can be transformed as needed.
 
+* nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+* my_list = [n*n for n in nums]
+* print (my_list)
+* Output = [1, 3, 9, 16, 25, 36, 49, 64, 81, 100]
+
 # 2.  Map Function
 
 * map() is a function with two arguments:
