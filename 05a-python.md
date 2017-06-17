@@ -76,7 +76,7 @@ g = lambda x: x^2
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+
 
 # 1.  List Comprehensions
 
@@ -84,7 +84,7 @@ List comprehensions are a tool for transforming one list into another list.  Dur
 
 # 2.  Map Function
 
- * map() is a function with two arguments:
+* map() is a function with two arguments:
 
 r = map(func, seq)
 
