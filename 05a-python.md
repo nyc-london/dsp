@@ -130,8 +130,10 @@ It returns a new list with the elements changed by func.
 
 # 3.  Filter Function
 
-The function filter(function, list) offers an elegant way to filter out all the elements of a list, for which the function function returns True. 
-The function filter(f,l) needs a function f as its first argument. f returns a Boolean value, i.e. either True or False. This function will be applied to every element of the list l. Only if f returns True will the element of the list be included in the result list.
+* The filter function (function, list) offers an elegant way to filter out all the elements of a list, for which the filter function returns True. 
+* The filter function(f,l) needs a function f as its first argument. f returns a Boolean value, i.e. either True or False. 
+* This function will be applied to every element of the list l. 
+* Only if f returns True will the element of the list be included in the result list.
 
 >>> fib = [0,1,1,2,3,5,8,13,21,34,55]
 
@@ -148,7 +150,7 @@ The function filter(f,l) needs a function f as its first argument. f returns a B
 [0, 2, 8, 34]
 
 
-# 4.  Set Comprehsion
+# 4.  Set Comprehension
 
 A set comprehension is similar to a list comprehension, but returns a set and not a list. Syntactically, curly brackets are used instead of square brackets to create a set.
 
