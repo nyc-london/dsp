@@ -50,6 +50,19 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
 
+>> (1) Python supports the creation of anonymous functions using a construct called "lambda" (i.e. functions not bound to a name).
+>> (2) FUNCTION:  
+def f(x): 
+  return x^2
+>> LAMBDA
+g = lambda x: x^2
+
+>> (3) The sorted() function sorts uppercase words before words that are lowercase.
+>> Using the 'key' keyword, you can change each entry so it will be sorted differently.
+>> Note: lambdas are limited to one expression only, the result of which is the return value
+>> sorted(['Some', 'words', 'sort', 'differently'], key=lambda word: word.lower())
+'#' ['differently', 'Some', 'sort', 'words']
+
 ---
 
 ### Q4. List Comprehension, Map &amp; Filter
