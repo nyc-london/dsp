@@ -81,7 +81,6 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 # 1.  List Comprehensions
 
 List comprehensions are a tool for transforming one list into another list.  During this transformation, elements can be conditionally included in the new list and each element can be transformed as needed.
----
 
 # 2.  Map Function
 
