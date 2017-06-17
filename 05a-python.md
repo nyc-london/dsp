@@ -184,7 +184,7 @@ A set comprehension is similar to a list comprehension, but returns a set and no
 * As with a list comprehension, a conditional statement can be used inside the dict comprehension to produce only the dict elements meeting some criterion.
 
 * {name: len(name) for name in ('Time', 'Australia', 'Cambridge') if len(name) > 6}  
-* # Out: {'Australia': 9, 'Cambridge': 9}
+* Output: {'Australia': 9, 'Cambridge': 9}
 
 ### Complete the following problems by editing the files below:
 
