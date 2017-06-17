@@ -148,7 +148,7 @@ A set comprehension is similar to a list comprehension, but returns a set and no
 >>> print(primes)
 {0, 1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97}
 
-# 5.  Dictionary Comprehensions
+# 5.  Dictionary Comprehension
 
 You can use dict comprehensions in ways very similar to list comprehensions, except that they produce Python dictionary objects instead of list objects.
 
