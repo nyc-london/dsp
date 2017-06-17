@@ -177,12 +177,14 @@ A set comprehension is similar to a list comprehension, but returns a set and no
 
 * You can use dict comprehensions in ways very similar to list comprehensions, except that they produce Python dictionary objects instead of list objects.
 
-* In addition, dict comprehensions can be used to create dictionaries from arbitrary key and value expressions:
-
 * {x: x**2 for x in (2, 4, 6)}
 
 * Output = {2: 4, 4: 16, 6: 36}
 
+* As with a list comprehension, a conditional statement can be used inside the dict comprehension to produce only the dict elements meeting some criterion.
+
+* {name: len(name) for name in ('Time', 'Australia', 'Cambridge') if len(name) > 6}  
+* # Out: {'Australia': 9, 'Cambridge': 9}
 
 ### Complete the following problems by editing the files below:
 
